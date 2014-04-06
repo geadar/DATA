@@ -1,0 +1,9 @@
+There are screens on:
+	770.t-session-s2	(Detached)
+	768.t-sqsh-s2	(Detached)
+	766.t-session-s1	(Detached)
+	764.t-sqsh-s1	(Detached)
+	762.telegram-session	(Detached)
+	760.telegram-sqsh	(Detached)
+6 Sockets in /var/run/screen/S-root.
+

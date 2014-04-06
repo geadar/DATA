@@ -1,0 +1,2817 @@
+sh-4.2# su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 232 unread
+[0m> [K> msg Gustavo_Adorno Hola
+[37;1m *** t = 2058789215812789282, len = 4
+[0m[32;1m[16:42] [0m [0;31mGustavo Adorno[0m[32;1m <<< Hola[0m
+> [K[37;1m *** Hole in seq: seq = 9, x = 12
+[0m> [KSent: id = 804
+> [K[33;1m[16:42]  1 messages marked as read
+[0m> [K[34;1m[16:42] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[16:42] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[16:42] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[16:42] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[33;1m[16:43]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[4 unread][0m[K[33;1m[16:46]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[4 unread][0m[K[33;1m[16:47]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[4 unread][0m[K[33;1m[16:53]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[4 unread][0m[K[34;1m[16:53] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0m[K[34;1m[16:53] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[6 unread][0m[K[0;31m[6 unread][0m[K[34;1m[16:53] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[7 unread][0m[K[0;31m[7 unread][0m[K[33;1m[16:54]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[7 unread][0m[K[33;1m[16:59]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[7 unread][0m[K[33;1m[17:00]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[7 unread][0m[K[33;1m[17:02]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[7 unread][0m[K[34;1m[17:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[8 unread][0m[K[0;31m[8 unread][0m[K[34;1m[17:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[9 unread][0m[K[0;31m[9 unread][0m[K[33;1m[17:03]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[9 unread][0m[K[33;1m[17:10]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[9 unread][0m[K[33;1m[17:10]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[9 unread][0m[K[0;31m[9 unread][0m[K[0;31m[9 unread][0m[K[0;31m[9 unread][0m./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> status_online
+> [K[33;1m[18:11]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[34;1m[18:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[18:12]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[1 unread][0m[K[33;1m[18:13]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[1 unread][0m[K[33;1m[18:13]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[1 unread][0m[K[33;1m[18:14]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[1 unread][0m[K[33;1m[18:14]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[34;1m[18:14] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[18:15]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[2 unread][0m[K[33;1m[18:15]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[2 unread][0m[K[33;1m[18:15]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[2 unread][0m[K[33;1m[18:59]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[2 unread][0m[K[34;1m[18:59] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1843486093168039513, len = 55
+[0m[32;1m[18:59] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 817
+> [K[33;1m[18:59]  1 messages marked as read
+[0m> [K[33;1m[19:00]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:02]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 837459417066206155, len = 55
+[0m[32;1m[19:02] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 823
+> [K[34;1m[19:02] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[19:02]  1 messages marked as read
+[0m[0;31m[1 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 4755485236071806159, len = 55
+[0m[32;1m[19:02] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 825
+> [K[33;1m[19:02]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4562240987146480240, len = 55
+[0m[32;1m[19:03] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 826
+> [K[33;1m[19:03]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2737171698853077765, len = 55
+[0m[32;1m[19:03] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 827
+> [K[33;1m[19:03]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5285219821884218219, len = 55
+[0m[32;1m[19:03] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 828
+> [K[33;1m[19:03]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2667190185880241104, len = 55
+[0m[32;1m[19:03] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 829
+> [K[33;1m[19:03]  1 messages marked as read
+[0m> [K[33;1m[19:03]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:08]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:08]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0mstatus_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5673190301919994283, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2271001224941469472, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 849
+> [KSent: id = 850
+> [K[33;1m[19:28]  2 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5673190301919994283, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2271001224941469472, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 849
+> [KSent: id = 850
+> [K[33;1m[19:28]  2 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -940103845313520499, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3367774966411321227, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 851
+> [KSent: id = 852
+> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  1 messages marked as read
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5673190301919994283, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2271001224941469472, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 849
+> [KSent: id = 850
+> [K[33;1m[19:28]  2 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -940103845313520499, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3367774966411321227, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 851
+> [KSent: id = 852
+> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -152271626074424779, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 265783275558292575, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 853
+> [KSent: id = 854
+> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5673190301919994283, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2271001224941469472, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 849
+> [KSent: id = 850
+> [K[33;1m[19:28]  2 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -940103845313520499, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3367774966411321227, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 851
+> [KSent: id = 852
+> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -152271626074424779, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 265783275558292575, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 853
+> [KSent: id = 854
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -9025422260685065114, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3164468842039516961, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 855
+> [KSent: id = 856
+> status_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5673190301919994283, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2271001224941469472, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 849
+> [KSent: id = 850
+> [K[33;1m[19:28]  2 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -940103845313520499, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3367774966411321227, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 851
+> [KSent: id = 852
+> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -152271626074424779, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 265783275558292575, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 853
+> [KSent: id = 854
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -9025422260685065114, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3164468842039516961, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 855
+> [KSent: id = 856
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5060374240841861141, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 177056781977267960, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 857
+> [KSent: id = 858
+> [K[33;1m[19:29]  6 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:30]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[20:55]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[20:55] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0mstatus_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5673190301919994283, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2271001224941469472, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 849
+> [KSent: id = 850
+> [K[33;1m[19:28]  2 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -940103845313520499, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3367774966411321227, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 851
+> [KSent: id = 852
+> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -152271626074424779, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 265783275558292575, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 853
+> [KSent: id = 854
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -9025422260685065114, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3164468842039516961, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 855
+> [KSent: id = 856
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5060374240841861141, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 177056781977267960, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 857
+> [KSent: id = 858
+> [K[33;1m[19:29]  6 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:30]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[20:55]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[20:55] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[33;1m[20:56]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[4 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 6741212711643599383, len = 55
+[0m[32;1m[20:56] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 863
+> [K[33;1m[20:56]  1 messages marked as read
+[0m> [K[33;1m[20:56]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[20:57]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[21:20]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[21:20]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[22:38]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[22:38] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[22:39]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[1 unread][0mstatus_online
+> status_online
+> status_online
+> [K[33;1m[19:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[19:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5741681855011680863, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5461868916381961677, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 835
+> [KSent: id = 836
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -8788475541044524731, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3539848599015656311, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 837
+> [KSent: id = 838
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -1160777202266581125, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5589973449051952899, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 839
+> [KSent: id = 840
+> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  1 messages marked as read
+[0m> [K[33;1m[19:27]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1261223736987485657, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7366884987305740011, len = 55
+[0m[32;1m[19:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 841
+> [KSent: id = 842
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2083781351542267007, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3947166350242350049, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 843
+> [KSent: id = 844
+> [K[33;1m[19:28]  4 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7729882673631835242, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -7093735252961658913, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 845
+> [KSent: id = 846
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4791341348549113520, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 277375920813328971, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 847
+> [KSent: id = 848
+> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  1 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5673190301919994283, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -2271001224941469472, len = 55
+[0m[32;1m[19:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 849
+> [KSent: id = 850
+> [K[33;1m[19:28]  2 messages marked as read
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -940103845313520499, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3367774966411321227, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 851
+> [KSent: id = 852
+> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  1 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -152271626074424779, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 265783275558292575, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 853
+> [KSent: id = 854
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -9025422260685065114, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 3164468842039516961, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 855
+> [KSent: id = 856
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -5060374240841861141, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 177056781977267960, len = 55
+[0m[32;1m[19:29] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 857
+> [KSent: id = 858
+> [K[33;1m[19:29]  6 messages marked as read
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:30]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[20:55]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[20:55] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[20:56] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[33;1m[20:56]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[4 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 6741212711643599383, len = 55
+[0m[32;1m[20:56] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 863
+> [K[33;1m[20:56]  1 messages marked as read
+[0m> [K[33;1m[20:56]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[20:57]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[21:20]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[21:20]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[22:38]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[22:38] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[22:39]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m[0;31m[1 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -9091342635973957998, len = 55
+[0m[32;1m[22:40] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 865
+> [K[33;1m[22:40]  1 messages marked as read
+[0m> [K[33;1m[22:40]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[22:41]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> sh-4.2# su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 262 unread
+[0m> [K> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -749411477714888526, len = 55
+[0m[32;1m[12:01] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> ./telegram -k tg.pub
+> [K[37;1m *** Hole in seq: seq = 100, x = 102
+[0m> [KSent: id = 868
+> [K[33;1m[12:01]  1 messages marked as read
+[0m> msg Gustavo_Adorno Error de procesaminto por favor vuelva a enviar la consulta
+[37;1m *** t = -1743808836410891235, len = 59
+[0m[32;1m[12:01] [0m [0;31mGustavo Adorno[0m[32;1m <<< Error de procesaminto por favor vuelva a enviar la consulta[0m
+> [KSent: id = 869
+> [K[33;1m[12:01]  1 messages marked as read
+[0m> [K> [K> [K[34;1m[12:01] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[12:01] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[12:01] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[33;1m[12:02]  User [0;31mGustavo Adorno[33;1m is now online
+[0m[0;31m[3 unread][0m[K[0;31m[3 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion s imple de Someco
+[37;1m *** t = 721625208528367889, len = 55
+[0m[32;1m[12:02] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 873
+> [K[33;1m[12:02]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4069380449551631354, len = 55
+[0m[32;1m[12:03] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 874
+> [K[33;1m[12:03]  1 messages marked as read
+[0m> [K[33;1m[12:04]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[12:05]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[12:27]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[12:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[12:39]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[12:39]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[13:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[13:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[13:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[13:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[13:26] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0mmsg Gustavo_Adorno Bienvenido al servicio de comunicacion s imple de Someco
+[37;1m *** t = -6213654916370700435, len = 55
+[0m[32;1m[13:26] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 879
+> [K[33;1m[13:26]  1 messages marked as read
+[0m> [K[33;1m[13:26]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [KSent: id = 879
+> [K[33;1m[13:26]  1 messages marked as read
+[0m> [K[33;1m[13:26]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5133039023875905303, len = 55
+[0m[32;1m[13:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 880
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 2330159001425683996, len = 55
+[0m[32;1m[13:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 881
+> [K[33;1m[13:28]  2 messages marked as read
+[0m> [K[33;1m[13:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [KSent: id = 879
+> [K[33;1m[13:26]  1 messages marked as read
+[0m> [K[33;1m[13:26]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5133039023875905303, len = 55
+[0m[32;1m[13:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 880
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 2330159001425683996, len = 55
+[0m[32;1m[13:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 881
+> [K[33;1m[13:28]  2 messages marked as read
+[0m> [K[33;1m[13:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 918018009848375359, len = 55
+[0m[32;1m[13:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 6453671028136805200, len = 55
+[0m[32;1m[13:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 882
+> [KSent: id = 883
+> [K[33;1m[13:28]  1 messages marked as read
+[0m> [K[33;1m[13:28]  1 messages marked as read
+[0m> [K[33;1m[13:30]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 796662714292720550, len = 55
+[0m[32;1m[13:30] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -6349468299794107523, len = 55
+[0m[32;1m[13:30] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 884
+> [KSent: id = 885
+> [K[33;1m[13:30]  2 messages marked as read
+[0m> [K[33;1m[13:30]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 414065823348541422, len = 55
+[0m[32;1m[13:30] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 1838132228615195983, len = 55
+[0m[32;1m[13:30] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 886
+> [KSent: id = 887
+> [K[33;1m[13:30]  1 messages marked as read
+[0m> [K[33;1m[13:30]  1 messages marked as read
+[0m> [K[33;1m[13:31]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -6018663540536345556, len = 55
+[0m[32;1m[13:31] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7574780934399355113, len = 55
+[0m[32;1m[13:31] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 888
+> [KSent: id = 889
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -3846455972007229178, len = 55
+[0m[32;1m[13:31] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 890
+> [K[33;1m[13:32]  2 messages marked as read
+[0m> [K[33;1m[13:32]  1 messages marked as read
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 7160148516934461068, len = 55
+[0m[32;1m[13:36] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 5533744909298202007, len = 55
+[0m[32;1m[13:36] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [K[37;1m *** Hole in seq: seq = 137, x = 141
+[0m> [KSent: id = 893
+> [K[37;1m *** Hole in seq: seq = 137, x = 142
+[0m> [KSent: id = 894
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -4953615556710783399, len = 55
+[0m[32;1m[13:38] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [K[37;1m *** Hole in seq: seq = 137, x = 146
+[0m> [KSent: id = 898
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 2155307249432427425, len = 55
+[0m[32;1m[13:46] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [K[37;1m *** Hole in seq: seq = 137, x = 147
+[0m> [KSent: id = 899
+> [K[37;1m *** Hole in seq: seq = 137, x = 148
+[0m> [KSent: id = 900
+> [K[33;1m[13:46]  8 messages marked as read
+[0m> [K[33;1m[13:46]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[13:48]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[13:49]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = -6505623783066054357, len = 55
+[0m[32;1m[13:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 901
+> msg Gustavo_Adorno Bienvenido al servicio de comunicacion simple de Someco
+[37;1m *** t = 6358771405734163164, len = 55
+[0m[32;1m[13:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Bienvenido al servicio de comunicacion simple de Someco[0m
+> [KSent: id = 902
+> [K[33;1m[13:51]  1 messages marked as read
+[0m> [K[33;1m[13:51]  1 messages marked as read
+[0m> [K[33;1m[13:51]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[13:53]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -6582132572615653342, len = 20
+[0m[32;1m[13:54] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 4161892933871114465, len = 20
+[0m[32;1m[13:54] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [KSent: id = 903
+> [KSent: id = 904
+> [K[33;1m[13:54]  1 messages marked as read
+[0m> [K[33;1m[13:54]  1 messages marked as read
+[0m> [K[33;1m[13:54]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[13:56]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 3427955887813063925, len = 20
+[0m[32;1m[14:01] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 157, x = 164
+[0m> [KSent: id = 908
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -6349721743655161099, len = 20
+[0m[32;1m[14:01] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 157, x = 168
+[0m> [KSent: id = 910
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 5716034889535749339, len = 20
+[0m[32;1m[14:01] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 157, x = 172
+[0m> [KSent: id = 912
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 5454809162804063543, len = 20
+[0m[32;1m[14:02] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 157, x = 179
+[0m> [KSent: id = 917
+> sh-4.2# su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 280 unread
+[0m> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> status_online
+> [K[33;1m[14:14]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[14:14] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[14:14] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[14:14] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[14:14] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 228173867923534172, len = 20
+[0m[32;1m[14:14] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [KSent: id = 930
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 3883789642176361926, len = 20
+[0m[32;1m[14:14] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 194, x = 198
+[0m> [KSent: id = 932
+> status_online
+> [K[37;1m *** Hole in seq: seq = 194, x = 202
+[0m> [K[34;1m[14:15] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[37;1m *** Hole in seq: seq = 194, x = 203
+[0m[0;31m[1 unread][0m[K[34;1m[14:15] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[37;1m *** Hole in seq: seq = 194, x = 204
+[0m[0;31m[2 unread][0m[K[34;1m[14:15] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[37;1m *** Hole in seq: seq = 194, x = 205
+[0m[0;31m[3 unread][0m[K[34;1m[14:15] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[37;1m *** Hole in seq: seq = 194, x = 206
+[0m[0;31m[4 unread][0m[K[34;1m[14:15] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 5688781050907720760, len = 20
+[0m[32;1m[14:15] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 194, x = 207
+[0m> [KSent: id = 939
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 6114078771576815976, len = 20
+[0m[32;1m[14:15] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 194, x = 211
+[0m> [KSent: id = 941
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -2597652228062441839, len = 20
+[0m[32;1m[14:16] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 194, x = 215
+[0m> [KSent: id = 943
+> [K[33;1m[14:16]  1 messages marked as read
+[0m> [K[33;1m[14:16]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[14:16]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[14:16]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[14:18]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[14:18]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[14:18]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[34;1m[14:18] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[14:18]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[34;1m[14:18] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[14:18]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[2 unread][0m[K[34;1m[14:18] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[33;1m[14:18]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[3 unread][0m[K[34;1m[14:18] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[33;1m[14:18]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[4 unread][0m[K[34;1m[14:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0m[K[33;1m[14:19]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[5 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 8704051138637562679, len = 20
+[0m[32;1m[14:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[34;1m[14:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[KSent: id = 950
+[0;31m[1 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -9032332650153698985, len = 20
+[0m[32;1m[14:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 223, x = 227
+[0m> [KSent: id = 952
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -4237653064911888392, len = 20
+[0m[32;1m[14:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 223, x = 231
+[0m> [KSent: id = 954
+> status_online
+> [K[33;1m[14:20]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[14:20]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[14:20]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[14:20]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[14:20]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> sh-4.2# sh-4.2# su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1m[15:39]  2 messages marked as read
+[0m> [K[32;1m[14:19] [0m [0;31mGustavo Adorno[0m[32;1m ««« Sesion S1[0m
+[0;31m[308 unread][0m[K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 295 unread
+[0m[0;31m[308 unread][0mstatus_online
+> ./telegram -k tg.pub
+> su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 295 unread
+[0m> status_online
+> [K[33;1m[15:50]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[34;1m[15:50] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[15:50] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[15:50] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[15:50] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[34;1m[15:50] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0m[K[34;1m[15:50] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[6 unread][0m[K[0;31m[6 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 1944907878751602415, len = 20
+[0m[32;1m[15:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [KSent: id = 962
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = 239878134664988032, len = 9
+[0m[32;1m[15:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 233, x = 241
+[0m> [KSent: id = 963
+> [K[33;1m[15:51]  1 messages marked as read
+[0m> [K[33;1m[15:51]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 5104079749830590314, len = 20
+[0m[32;1m[15:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 240, x = 244
+[0m> [KSent: id = 964
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = 2687285738905557098, len = 9
+[0m[32;1m[15:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 243, x = 245
+[0m> [KSent: id = 965
+> [K[33;1m[15:51]  1 messages marked as read
+[0m> [K[33;1m[15:51]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 4298402362769793113, len = 20
+[0m[32;1m[15:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 240, x = 248
+[0m> [KSent: id = 966
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = 8362157856868230181, len = 9
+[0m[32;1m[15:51] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 247, x = 249
+[0m> [KSent: id = 967
+> [K[33;1m[15:51]  1 messages marked as read
+[0m> [K[33;1m[15:51]  1 messages marked as read
+[0m> [K[33;1m[15:52]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> [K[33;1m[16:13]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[16:14]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[16:51]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[16:51]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[16:54]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[16:54]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> sh-4.2# sh-4.2# sh-4.2# su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+[37;1m *** Couldn't open public key file: tg.pub
+rsa_load_public_key: No such file or directory
+[0m]0;@TH-02:/DATA/tg\You have new mail in /var/mail/root
+[root@TH-02 tg]# msg  Error de procesaminto por favor vuelva a enviar la consult a
+bash: msg: command not found
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+[37;1m *** Couldn't open public key file: tg.pub
+rsa_load_public_key: No such file or directory
+[0m]0;@TH-02:/DATA/tg\[root@TH-02 tg]# msg  Error de procesaminto por favor vuelva a enviar la consult a
+bash: msg: command not found
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1m[17:16]  2 messages marked as read
+[0m> [K[32;1m[15:51] [0m [0;31mGustavo Adorno[0m[32;1m ««« Sesion S1[0m
+[0;31m[314 unread][0m[K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m[0;31m[314 unread][0msu
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ./telegram -k tg.pub
+bash: ./telegram: No such file or directory
+]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# msg  Error de procesaminto por favor vuelva a enviar la  consulta
+bash: msg: command not found
+]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ./telegram -k tg.pub
+bash: ./telegram: No such file or directory
+]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# su
+]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# cd /DATA/tg
+]0;root@TH-02:/DATA/tg\[root@TH-02 tg]# msg  Error de procesaminto por favor vuelva a enviar la consult a
+bash: msg: command not found
+]0;root@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> status_online
+> ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg.pub
+bash: ./telegram: No such file or directory
+]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# su
+]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# cd /DATA/tg
+]0;root@TH-02:/DATA/tg\[root@TH-02 tg]# msg  Error de procesaminto por favor vuelva a enviar la consult a
+bash: msg: command not found
+]0;root@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> su
+]0;root@TH-02:/DATA/a_modulo-7\[root@TH-02 a_modulo-7]# cd /DATA/tg
+]0;root@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> sh-4.2# sh-4.2# sh-4.2# su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+[37;1m *** Couldn't open public key file: tg.pub
+rsa_load_public_key: No such file or directory
+[0m]0;@TH-02:/DATA/tg\You have new mail in /var/mail/root
+[root@TH-02 tg]# msg  Error de procesaminto por favor vuelva a enviar la consult a
+bash: msg: command not found
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+[37;1m *** Couldn't open public key file: tg.pub
+rsa_load_public_key: No such file or directory
+[0m]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+[37;1m *** Couldn't open public key file: tg.pub
+rsa_load_public_key: No such file or directory
+[0m]0;@TH-02:/DATA/tg\You have new mail in /var/mail/root
+[root@TH-02 tg]# msg  Error de procesaminto por favor vuelva a enviar la consult a
+bash: msg: command not found
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+[37;1m *** Couldn't open public key file: tg.pub
+rsa_load_public_key: No such file or directory
+[0m]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# status_online
+> ./telegram -k tg.pub
+> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg.pub
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> msg  Error de procesaminto por favor vuelva a enviar la consulta
+Bad user/chat id
+> ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+> ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> su
+]0;@TH-02:/\[root@TH-02 /]# cd /DATA/tg
+]0;@TH-02:/DATA/tg\[root@TH-02 tg]# ./telegram -k tg.pub
+> ./telegram -k tg-server.pub
+Telegram-client version 0.01-beta, Copyright (C) 2013 Vitaly Valtman
+Telegram-client comes with ABSOLUTELY NO WARRANTY; for details type `show_license'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show_license' for details.
+> [K[33;1mUser [0;31mCristian Cejas[33;1m: 7 unread
+User [0;31mDario Adorno[33;1m: 6 unread
+User [0;31mGustavo Adorno[33;1m: 301 unread
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[09:44]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[09:44]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[09:44]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[09:45]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[09:45]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[09:45]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[09:46]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[09:46]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[34;1m[09:46] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[09:46]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[34;1m[09:46] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0mmsg Gustavo_Adorno Sesion S1
+[37;1m *** t = -2403324250263621808, len = 9
+[0m[32;1m[09:46] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 251, x = 255
+[0m> [KSent: id = 971
+> [K[33;1m[09:46]  1 messages marked as read
+[0m> [K[33;1m[09:46]  1 messages marked as read
+[0m> [K[33;1m[09:46]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 4268727720934634089, len = 20
+[0m[32;1m[09:46] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [KSent: id = 970
+> [K[34;1m[09:46] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[09:46]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[34;1m[09:46] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[09:46]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[2 unread][0m[K[34;1m[09:46] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -2910960920646562274, len = 20
+[0m[32;1m[09:46] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = -8869706355697561005, len = 9
+[0m[32;1m[09:46] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 260, x = 263
+[0m> [KSent: id = 976
+> [K[33;1m[09:46]  1 messages marked as read
+[0m> [K[37;1m *** Hole in seq: seq = 254, x = 261
+[0m> [KSent: id = 975
+> [K[33;1m[09:46]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 82111435234851932, len = 20
+[0m[32;1m[09:47] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 262, x = 265
+[0m> [KSent: id = 977
+> [K[33;1m[09:47]  1 messages marked as read
+[0m> [K[33;1m[09:47]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[09:48]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[34;1m[09:48] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[09:49]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[34;1m[09:49] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -8623684652640219714, len = 20
+[0m[32;1m[09:49] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [KSent: id = 980
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = 68380083718220125, len = 9
+[0m[32;1m[09:49] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 264, x = 270
+[0m> [KSent: id = 981
+> [K[33;1m[09:49]  1 messages marked as read
+[0m> [K[33;1m[09:49]  1 messages marked as read
+[0m> [K[33;1m[09:49]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[09:58]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[09:58]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[10:01]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[10:01]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[10:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[37;1m *** Hole in seq: seq = 269, x = 273
+[0m> [K[34;1m[10:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[10:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[37;1m *** Hole in seq: seq = 269, x = 274
+[0m[0;31m[1 unread][0m[K[34;1m[10:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[10:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[2 unread][0m[K[37;1m *** Hole in seq: seq = 269, x = 275
+[0m[0;31m[2 unread][0m[K[34;1m[10:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0mmsg Gustavo_Adorno Sesion S1
+[37;1m *** t = -7517911241013433385, len = 9
+[0m[32;1m[10:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 272, x = 277
+[0m> [KSent: id = 986
+> [K[33;1m[10:28]  1 messages marked as read
+[0m> [K[33;1m[10:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -4086228075299004241, len = 20
+[0m[32;1m[10:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 269, x = 276
+[0m> [KSent: id = 985
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 5168402316566020393, len = 20
+[0m[32;1m[10:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 269, x = 280
+[0m> [KSent: id = 987
+> [K[33;1m[10:28]  1 messages marked as read
+[0m> [K[33;1m[10:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[10:30]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[10:30]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[10:30]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[10:30]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[34;1m[10:34] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[34;1m[10:34] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[34;1m[10:34] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[34;1m[10:34] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0mmsg Gustavo_Adorno Sesion S2
+[37;1m *** t = -3121132054136004100, len = 9
+[0m[32;1m[10:35] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 251, x = 290
+[0m> [KSent: id = 995
+> [K[33;1m[10:35]  1 messages marked as read
+[0m> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = -8619986385936521110, len = 9
+[0m[32;1m[10:35] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 279, x = 289
+[0m> [KSent: id = 994
+> [K[34;1m[10:35] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mstatus_online
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -4260269318324069037, len = 20
+[0m[32;1m[10:35] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [KSent: id = 993
+> [K[33;1m[10:35]  1 messages marked as read
+[0m> [K[33;1m[10:35]  1 messages marked as read
+[0m> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = 402137748616441092, len = 9
+[0m[32;1m[10:35] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 279, x = 294
+[0m> [KSent: id = 997
+> [K[33;1m[10:35]  1 messages marked as read
+[0m> [K[33;1m[10:35]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 5143219169360306542, len = 20
+[0m[32;1m[10:35] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 293
+[0m> [KSent: id = 996
+> [K[33;1m[10:35]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[11:19]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[37;1m *** Hole in seq: seq = 288, x = 297
+[0m> [K[34;1m[11:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 298
+[0m[0;31m[1 unread][0m[K[34;1m[11:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 299
+[0m[0;31m[2 unread][0m[K[34;1m[11:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 300
+[0m[0;31m[3 unread][0m[K[34;1m[11:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0mmsg Gustavo_Adorno Sesion S1
+[37;1m *** t = 8331415988468650596, len = 9
+[0m[32;1m[11:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 296, x = 304
+[0m> [KSent: id = 1005
+> [K[33;1m[11:19]  1 messages marked as read
+[0m> [K[37;1m *** Hole in seq: seq = 288, x = 301
+[0m[0;31m[4 unread][0m[K[34;1m[11:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 302
+[0m[0;31m[5 unread][0m[K[34;1m[11:19] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[6 unread][0m[K[0;31m[6 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 3137260046936868204, len = 20
+[0m[32;1m[11:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 303
+[0m> [KSent: id = 1004
+> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = 4416946612117420068, len = 9
+[0m[32;1m[11:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 292, x = 306
+[0m> [KSent: id = 1006
+> [K[33;1m[11:19]  1 messages marked as read
+[0m> [K[33;1m[11:19]  1 messages marked as read
+[0m> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = -4450397125568622460, len = 9
+[0m[32;1m[11:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 308, x = 312
+[0m> [KSent: id = 1009
+> [K[33;1m[11:19]  1 messages marked as read
+[0m> [K[33;1m[11:19]  1 messages marked as read
+[0m> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = 8454528188177574408, len = 9
+[0m[32;1m[11:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 305, x = 310
+[0m> [KSent: id = 1008
+> [K[33;1m[11:19]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 7950226439157271699, len = 20
+[0m[32;1m[11:19] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 309
+[0m> [KSent: id = 1007
+> [K[33;1m[11:19]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[22:38]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[37;1m *** Hole in seq: seq = 288, x = 315
+[0m> [K[34;1m[22:38] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 316
+[0m[0;31m[1 unread][0m[K[34;1m[22:38] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 317
+[0m[0;31m[2 unread][0m[K[34;1m[22:38] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0mmsg Gustavo_Adorno Sesion S1
+[37;1m *** t = -4421659455294306723, len = 9
+[0m[32;1m[22:38] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 311, x = 319
+[0m> [KSent: id = 1014
+> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = -5373469715587687553, len = 9
+[0m[32;1m[22:38] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 314, x = 320
+[0m> [KSent: id = 1015
+> [K[33;1m[22:38]  1 messages marked as read
+[0m> [K[33;1m[22:38]  1 messages marked as read
+[0m> [K[33;1m[22:38]  1 messages marked as read
+[0m> [K[33;1m[22:38]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[22:50]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[22:51]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[17:11]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:12]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[17:12]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:13]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:14]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[17:14]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[17:15]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[17:15]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:15]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[17:15]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:16]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[17:16]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:16]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[17:24]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:24]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[17:24]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[17:24]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> [K[33;1m[17:49]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[17:50]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[18:08]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[18:10]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:10]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:10]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:11]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:11]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:13]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:13]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:14]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:14]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[18:16]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:16]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:17]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:17]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:19]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[18:20]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:20]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:20]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:23]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:24]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:24]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:26]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:26]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:26]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[37;1m *** Hole in seq: seq = 288, x = 324
+[0m> [K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 325
+[0m[0;31m[1 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[2 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 326
+[0m[0;31m[2 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[3 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 327
+[0m[0;31m[3 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[4 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 328
+[0m[0;31m[4 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -1804719808981626798, len = 20
+[0m[32;1m[18:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 329
+[0m> [KSent: id = 1021
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = -1811588582391150965, len = 9
+[0m[32;1m[18:27] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 311, x = 330
+[0m> [KSent: id = 1022
+> [K[33;1m[18:27]  1 messages marked as read
+[0m> [K[33;1m[18:27]  1 messages marked as read
+[0m> [K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[2 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[3 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 656478457220655919, len = 20
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 339
+[0m> [KSent: id = 1029
+> [K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[4 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0m[K[33;1m[18:27]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[5 unread][0m[K[34;1m[18:27] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[6 unread][0m[K[0;31m[6 unread][0mmsg Gustavo_Adorno Sesion S1
+[37;1m *** t = -381065327467687099, len = 9
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 338, x = 340
+[0m> [KSent: id = 1030
+> [K[33;1m[18:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = 1149715283123519033, len = 9
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 323, x = 342
+[0m> [KSent: id = 1031
+> [K[33;1m[18:28]  1 messages marked as read
+[0m> [K[33;1m[18:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -2381956976396502202, len = 20
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 345
+[0m> [KSent: id = 1032
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = -1239740594526606820, len = 9
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 341, x = 346
+[0m> [KSent: id = 1033
+> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = 1324836542995968855, len = 9
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 344, x = 347
+[0m> [KSent: id = 1034
+> [K[33;1m[18:28]  1 messages marked as read
+[0m> [K[33;1m[18:28]  1 messages marked as read
+[0m> [K[33;1m[18:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = -5490689420680689961, len = 9
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 341, x = 352
+[0m> [KSent: id = 1036
+> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = 8670889122811566597, len = 9
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 350, x = 353
+[0m> [KSent: id = 1037
+> [K[33;1m[18:28]  1 messages marked as read
+[0m> [K[33;1m[18:28]  1 messages marked as read
+[0m> [K[33;1m[18:28]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -5001214388089612135, len = 20
+[0m[32;1m[18:28] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 351
+[0m> [KSent: id = 1035
+> [K[33;1m[18:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> [K[33;1m[18:48]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:49]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[18:50]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[18:50]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[18:51]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:28]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:29]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[19:31]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:33]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:33]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:33]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[19:35]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:38]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> [K[33;1m[19:45]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:52]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:52]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:55]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:56]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:58]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[19:58]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[19:59]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> [K[33;1m[20:05]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[20:07]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[20:08]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[20:09]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> status_online
+> [K[33;1m[20:10]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> [K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is now online
+[0m> [K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[37;1m *** Hole in seq: seq = 288, x = 357
+[0m> [K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 358
+[0m[0;31m[1 unread][0m[K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[2 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 359
+[0m[0;31m[2 unread][0m[K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[3 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 360
+[0m[0;31m[3 unread][0m[K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[4 unread][0m[K[0;31m[4 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[4 unread][0mmsg Gustavo_Adorno Sesion S2
+[37;1m *** t = 8833980095423015196, len = 9
+[0m[32;1m[20:11] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 356, x = 367
+[0m> [KSent: id = 1047
+> [K[33;1m[20:11]  1 messages marked as read
+[0m> [K[33;1m[20:11]  1 messages marked as read
+[0m> [K[37;1m *** Hole in seq: seq = 288, x = 361
+[0m[0;31m[4 unread][0m[K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[5 unread][0m[K[0;31m[5 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[5 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 362
+[0m[0;31m[5 unread][0m[K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[6 unread][0m[K[0;31m[6 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[6 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -2224701503864355652, len = 20
+[0m[32;1m[20:11] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 363
+[0m> [K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[37;1m *** Hole in seq: seq = 288, x = 364
+[0m[0;31m[1 unread][0m[KSent: id = 1045
+[0;31m[1 unread][0mmsg Gustavo_Adorno Sesion S1
+[37;1m *** t = 2472231743018670523, len = 9
+[0m[32;1m[20:11] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 341, x = 365
+[0m> [KSent: id = 1046
+> [K[33;1m[20:11]  1 messages marked as read
+[0m> [K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m> [K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[1 unread][0m[K[0;31m[1 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[1 unread][0m[K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[2 unread][0m[K[0;31m[2 unread][0m[K[33;1m[20:11]  User [0;31mGustavo Adorno[33;1m is typing....
+[0m[0;31m[2 unread][0m[K[34;1m[20:11] [0m [0;31mGustavo Adorno[0m[34;1m >>> ##alta[0m
+[0;31m[3 unread][0m[K[0;31m[3 unread][0mmsg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 4118810550357398001, len = 20
+[0m[32;1m[20:11] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 373
+[0m> [KSent: id = 1051
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = -7525585488031346397, len = 9
+[0m[32;1m[20:11] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 366, x = 374
+[0m> [KSent: id = 1052
+> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = -2247774067683150223, len = 9
+[0m[32;1m[20:11] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 372, x = 375
+[0m> [KSent: id = 1053
+> [K[33;1m[20:11]  1 messages marked as read
+[0m> [K[33;1m[20:11]  1 messages marked as read
+[0m> [K[33;1m[20:11]  1 messages marked as read
+[0m> msg Gustavo_Adorno Sesion S2
+[37;1m *** t = -1126062877039250983, len = 9
+[0m[32;1m[20:12] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S2[0m
+> [K[37;1m *** Hole in seq: seq = 378, x = 381
+[0m> [KSent: id = 1056
+> [K[33;1m[20:12]  1 messages marked as read
+[0m> [K[33;1m[20:12]  1 messages marked as read
+[0m> [K[33;1m[20:12]  1 messages marked as read
+[0m> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = 3427896793864437790, len = 20
+[0m[32;1m[20:12] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 379
+[0m> [KSent: id = 1054
+> msg Gustavo_Adorno Sesion S1
+[37;1m *** t = -4373418539972411653, len = 9
+[0m[32;1m[20:12] [0m [0;31mGustavo Adorno[0m[32;1m <<< Sesion S1[0m
+> [K[37;1m *** Hole in seq: seq = 366, x = 380
+[0m> [KSent: id = 1055
+> msg Gustavo_Adorno Session Principal S1
+[37;1m *** t = -111281125862109048, len = 20
+[0m[32;1m[20:12] [0m [0;31mGustavo Adorno[0m[32;1m <<< Session Principal S1[0m
+> [K[37;1m *** Hole in seq: seq = 288, x = 385
+[0m> [KSent: id = 1057
+> [K[33;1m[20:12]  1 messages marked as read
+[0m> [K[33;1m[20:12]  User [0;31mGustavo Adorno[33;1m is now offline
+[0m> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> status_online
+> 

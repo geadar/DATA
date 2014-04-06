@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Nombre del cliente a crear"
+read -s cliente
+
+echo $cliente
+
+sed -i "s/s_1/$cliente/g" /DATA/$cliente/*/*.*
+sed -i "s/s_1/$cliente/g" /DATA/$cliente/*/*
+

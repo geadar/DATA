@@ -1,0 +1,3 @@
+telegram-sqsh
+t-sqsh-s1
+t-sqsh-s2

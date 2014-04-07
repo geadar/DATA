@@ -10,7 +10,6 @@ sqsh1=$(head -1 $F60 | tail -1)
 telegram1=$(head -1 $F61 | tail -1)
 
 
-
 F1=/DATA/a_modulo-3/formulario-seguro.txt
 N1=/DATA/a_modulo-3/numero-seguro.txt
 A1=/DATA/a_modulo-3/accion-seguro.txt
@@ -47,9 +46,5 @@ screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "exec $DB '$F', $N, '$A'\r"`";
 
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "\go\r"`";
 
-#screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "\go >/DATA/SHARED/$CLI-$r.txt\r"`";
-
 sleep 3
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "quit\r"`";
-
-

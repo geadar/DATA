@@ -11,7 +11,6 @@ FILES=/DATA/a_modulo-2/mensaje-seguro.txt
 # Leer la primera linea del archivo
 FILES2=$(head -1 $FILES | tail -1)
 
-echo "1"
 
 F1=/DATA/s_1/a_modulo-3/f1.txt
 F2=/DATA/s_1/a_modulo-3/f2.txt
@@ -61,18 +60,14 @@ S17=/DATA/s_1/a_modulo-3/accion-seguro.txt
 # Generacion de usuario seguro
 F18=/DATA/s_1/a_modulo-3/usuario-s.txt
 
-echo "2"
 
 # Leer la primera linea del archivo
 echo $FILE2 > $F1 
 
-echo "3"
 
 # Leer la primera linea del archivo SEGURO
 echo $FILES2 > $S1 
 
-
-echo "4"
 
 #-----Cliente que en realidad es la info que acompana a ##r# o ##a# o ##q# -----------
 
@@ -80,13 +75,9 @@ echo "4"
 sed -n 's/^.*\(\s##[^ ]*\).*/\1/p' $F1 > $F4
 
 
-echo "5"
-
 # Busqueda del campo con ## en el archivo SEGURO 
 sed -n 's/^.*\(\s##[^ ]*\).*/\1/p' $S1 > $S4
 
-
-echo "6"
 
 #-----------------------------------------------
 # Elimino el ##r# para obtener el cliente
@@ -95,13 +86,9 @@ sed 's/##a#//' $F6 > $F7
 sed 's/##q#//' $F7 > $F10
 
 
-echo "7"
-
 # Elimino el primer caracter en blanco
 sed 's/^ *//g' $F10 > $F14
 
-
-echo "8"
 
 #-----------------------------------------------
 # Elimino el ##r# para obtener el cliente SEGURO
@@ -109,21 +96,15 @@ sed 's/##rs#//' $S4 > $S6
 sed 's/##as#//' $S6 > $S10
 
 
-echo "9"
-
 # Elimino el primer caracter en blanco SEGURO
 sed 's/^ *//g' $S10 > $S14
 
-
-echo "10"
 
 #-----------------------Orden ----------------------------------
 
 # Leo el contenido del cliente para eliminarlo y obtener la orden
 cliente=$(awk 'NR==1' $F14)
 
-
-echo "11"
 
 # Leo el contenido del cliente para eliminarlo y obtener la orden SEGURO
 clientes=$(awk 'NR==1' $S14)
@@ -246,8 +227,3 @@ then
 else
         echo "Uhh"
 fi
-
-
-
-
-

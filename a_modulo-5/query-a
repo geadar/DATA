@@ -22,11 +22,6 @@ N=$(head -1 $N1 | tail -1)
 A=$(head -1 $A1 | tail -1)
 
 
-#CLIENT=/DATA/a_modulo-3/cliente.txt
-
-# Leer la primera linea del archivo
-#CLI=$(head -1 $CLIENT | tail -1)
-
 F1=/DATA/a_modulo-7/nro_screen_sqsh.txt
 
 # Leer Numero de sesion
@@ -46,36 +41,5 @@ screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "exec $DB '$F', $N, '$A'\r"`";
 
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "\go\r"`";
 
-#screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "\go >/DATA/SHARED/$CLI-$r.txt\r"`";
-
 sleep 3
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "quit\r"`";
-
-
-
-
-#USUARIO=/DATA/a_modulo-3/usuario.txt
-
-# Leer la primera linea del archivo
-#USER=$(head -1 $USUARIO | tail -1)
-
-#F2=/DATA/a_modulo-7/nro_screen_telegram.txt
-
-# Leer Numero de sesion
-#NUM2=$(head -1 $F2 | tail -1)
-
-#echo $USER
-#screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "./telegram -k tg.pub\r"`";
-
-#sleep 10
-#screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "msg $USER $r\r"`";
-
-#sleep 1
-#screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "send_text $USER $F\r"`";
-
-#sleep 1
-#screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "send_text $USER $N\r"`";
-
-#sleep 1
-#screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "send_text $USER $A\r"`";
-

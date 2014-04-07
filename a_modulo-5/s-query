@@ -34,11 +34,7 @@ screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "/usr/local/bin/sqsh -S SOMSQL\r"`"
 
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "exec $DB $CLI, $CLI$r\r"`";
 
-#screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "exec $DB $CLI, gus\r"`";
-
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "\go\r"`";
-
-#screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "\go >/DATA/SHARED/$CLI-$r.txt\r"`";
 
 sleep 3
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "quit\r"`";
@@ -59,4 +55,3 @@ NUM2=$(head -1 $F2 | tail -1)
 
 sleep 1
 screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "send_document $USER /DATA/SHARED/$CLI$r.html\r"`";
-

@@ -37,52 +37,51 @@ screen -LSdm $telegram2
 screen -dm $sqsh3
 screen -LSdm $telegram3
 
-echo "1"
 sleep 15
 
 F1=/DATA/a_modulo-7/f1.txt 
 
-# Sesion sqsh-s1
+# Sesion sqsh1
 F2=/DATA/a_modulo-7/f2.txt 
 F3=/DATA/a_modulo-7/f3.txt 
 F4=/DATA/a_modulo-7/f4.txt
 
-# Sesion telegram-s1
+# Sesion telegram1
 F5=/DATA/a_modulo-7/f5.txt
 F6=/DATA/a_modulo-7/f6.txt
 F7=/DATA/a_modulo-7/f7.txt
 
-# Sesion sqsh-s2
+# Sesion sqsh2
 F8=/DATA/a_modulo-7/f8.txt
 F9=/DATA/a_modulo-7/f9.txt
 F10=/DATA/a_modulo-7/f10.txt
 
-# Sesion telegram-s2
+# Sesion telegram2
 F11=/DATA/a_modulo-7/f11.txt
 F12=/DATA/a_modulo-7/f12.txt
 F13=/DATA/a_modulo-7/f13.txt
 
 
-# Sesion sqsh-s3
+# Sesion sqsh3
 F14=/DATA/a_modulo-7/f14.txt
 F15=/DATA/a_modulo-7/f15.txt
 F16=/DATA/a_modulo-7/f16.txt
 
-# Sesion telegram-s3
+# Sesion telegram3
 F17=/DATA/a_modulo-7/f17.txt
 F18=/DATA/a_modulo-7/f18.txt
 F19=/DATA/a_modulo-7/f19.txt
 
 
-# Sesion principal
+# Sesion S1
 F40=/DATA/a_modulo-7/nro_screen_sqsh_s1.txt
 F41=/DATA/a_modulo-7/nro_screen_telegram_s1.txt
 
-# Nro de S1 para procesaminento paralelo
+# Sesion S2
 F42=/DATA/a_modulo-7/nro_screen_sqsh_s2.txt
 F43=/DATA/a_modulo-7/nro_screen_telegram_s2.txt
 
-# Nro de S1 para procesaminento paralelo
+# Sesion S3
 F44=/DATA/a_modulo-7/nro_screen_sqsh_s3.txt
 F45=/DATA/a_modulo-7/nro_screen_telegram_s3.txt
 
@@ -90,7 +89,7 @@ F45=/DATA/a_modulo-7/nro_screen_telegram_s3.txt
 
 screen -ls > $F1
 
-#-------------- sqsh-s1 ------------------------------------
+#-------------- sqsh1 ------------------------------------
 
 # Busqueda de todos las lineas con ##
 grep -r ".$sqsh1" $F1 > $F2
@@ -114,7 +113,7 @@ sleep 1
 screen -S $NUM.$sqsh1 -p 0 -X stuff "`printf "cd /root\r"`";
 
 
-#-------------- telegram-s1 ------------------------------------
+#-------------- telegram1 ------------------------------------
 
 # Busqueda de todos las lineas con ##
 grep -r ".$telegram1" $F1 > $F5
@@ -145,7 +144,7 @@ screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "./telegram -k tg-server.pub\r
 #screen -S $NUM2.$telegram1 -p 0 -X stuff "`printf "status_online\r"`";
 
 
-#-------------- sqsh-s2 ------------------------------------
+#-------------- sqsh2 ------------------------------------
 
 # Busqueda de todos las lineas con ##
 grep -r ".$sqsh2" $F1 > $F8
@@ -170,7 +169,7 @@ screen -S $NUM3.$sqsh2 -p 0 -X stuff "`printf "su\r"`";
 sleep 1
 screen -S $NUM3.$sqsh2 -p 0 -X stuff "`printf "cd /root\r"`";
 
-#-------------- telegram-s2 ------------------------------------
+#-------------- telegram2 ------------------------------------
 
 # Busqueda de todos las lineas con ##
 grep -r ".$telegram2" $F1 > $F11
@@ -202,7 +201,7 @@ screen -S $NUM4.$telegram2 -p 0 -X stuff "`printf "./telegram -k tg-server.pub\r
 #screen -S $NUM4.$telegram2 -p 0 -X stuff "`printf "status_online\r"`";
 
 
-#-------------- sqsh-s3 ------------------------------------
+#-------------- sqsh3 ------------------------------------
 
 # Busqueda de todos las lineas con ##
 grep -r ".$sqsh3" $F1 > $F14
@@ -228,7 +227,7 @@ sleep 1
 screen -S $NUM5.$sqsh3 -p 0 -X stuff "`printf "cd /root\r"`";
 
 
-#-------------- telegram-s3 ------------------------------------
+#-------------- telegram3 ------------------------------------
 
 # Busqueda de todos las lineas con ##
 grep -r ".$telegram3" $F1 > $F17

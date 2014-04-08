@@ -14,7 +14,7 @@ screen -S $NUM.$telegram2 -p 0 -X stuff "`printf "./telegram -k tg-server.pub\r"
 
 sleep 3
 
-USUARIO=/DATA/s_1/a_modulo-3/usuario.txt
+USUARIO=/DATA/s_2/a_modulo-3/usuario.txt
 
 # Leer la primera linea del archivo
 USER=$(head -1 $USUARIO | tail -1)

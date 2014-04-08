@@ -19,34 +19,34 @@ from datetime import datetime
 
 #-------- Archivo donde se guardan las ordenes -----------------
 
-s = open('/DATA/s_1/a_modulo-3/orden.txt')
+s = open('/DATA/s_2/a_modulo-3/orden.txt')
 dato = s.read()
 
 #-------- Archivo donde se guardan las ordenes SEGURAS -----------------
 
-t = open('/DATA/s_1/a_modulo-3/orden-seguro.txt')
+t = open('/DATA/s_2/a_modulo-3/orden-seguro.txt')
 datos = t.read()
 
 
 match = re.findall("##alta", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-5/alta'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-5/alta'])
 
 match = re.findall("##r#", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-5/query'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-5/query'])
 
 match = re.findall("##a#", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-5/query-a'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-5/query-a'])
 
 match = re.findall("##q#", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-5/query-consulta'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-5/query-consulta'])
 
 match = re.findall("##s#", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-5/conexion-segura'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-5/conexion-segura'])
 
 #----------------- SEGURO ---------------------------------------
 
 match = re.findall("##rs#", datos)
-if match: subprocess.call(['/DATA/s_1/a_modulo-5/s-query'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-5/s-query'])
 
 match = re.findall("##as#", datos)
-if match: subprocess.call(['/DATA/s_1/a_modulo-5/s-query-a'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-5/s-query-a'])

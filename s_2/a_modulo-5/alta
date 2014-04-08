@@ -7,7 +7,7 @@ F61=/DATA/a_modulo-7/session_telegram.txt
 telegram2=$(head -2 $F61 | tail -1)
 
 
-USUARIO=/DATA/s_1/a_modulo-3/usuario.txt
+USUARIO=/DATA/s_2/a_modulo-3/usuario.txt
 
 # Leer la primera linea del archivo
 USER=$(head -1 $USUARIO | tail -1)

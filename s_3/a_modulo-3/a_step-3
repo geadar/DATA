@@ -13,80 +13,67 @@ FILES2=$(head -3 $FILES | tail -1)
 
 echo "1"
 
-F1=/DATA/s_2/a_modulo-3/f1.txt
-F2=/DATA/s_2/a_modulo-3/f2.txt
-F3=/DATA/s_2/a_modulo-3/f3.txt
-F4=/DATA/s_2/a_modulo-3/f4.txt
-F5=/DATA/s_2/a_modulo-3/f5.txt
-F6=/DATA/s_2/a_modulo-3/f6.txt
-F7=/DATA/s_2/a_modulo-3/f7.txt
-F8=/DATA/s_2/a_modulo-3/f8.txt
-F9=/DATA/s_2/a_modulo-3/f9.txt
-F10=/DATA/s_2/a_modulo-3/f10.txt
+F1=/DATA/s_3/a_modulo-3/f1.txt
+F2=/DATA/s_3/a_modulo-3/f2.txt
+F3=/DATA/s_3/a_modulo-3/f3.txt
+F4=/DATA/s_3/a_modulo-3/f4.txt
+F5=/DATA/s_3/a_modulo-3/f5.txt
+F6=/DATA/s_3/a_modulo-3/f6.txt
+F7=/DATA/s_3/a_modulo-3/f7.txt
+F8=/DATA/s_3/a_modulo-3/f8.txt
+F9=/DATA/s_3/a_modulo-3/f9.txt
+F10=/DATA/s_3/a_modulo-3/f10.txt
 
 
-S1=/DATA/s_2/a_modulo-3/s1.txt
-S2=/DATA/s_2/a_modulo-3/s2.txt
-S3=/DATA/s_2/a_modulo-3/s3.txt
-S4=/DATA/s_2/a_modulo-3/s4.txt
-S5=/DATA/s_2/a_modulo-3/s5.txt
-S6=/DATA/s_2/a_modulo-3/s6.txt
-S7=/DATA/s_2/a_modulo-3/s7.txt
-S8=/DATA/s_2/a_modulo-3/s8.txt
-S9=/DATA/s_2/a_modulo-3/s9.txt
-S10=/DATA/s_2/a_modulo-3/s10.txt
+S1=/DATA/s_3/a_modulo-3/s1.txt
+S2=/DATA/s_3/a_modulo-3/s2.txt
+S3=/DATA/s_3/a_modulo-3/s3.txt
+S4=/DATA/s_3/a_modulo-3/s4.txt
+S5=/DATA/s_3/a_modulo-3/s5.txt
+S6=/DATA/s_3/a_modulo-3/s6.txt
+S7=/DATA/s_3/a_modulo-3/s7.txt
+S8=/DATA/s_3/a_modulo-3/s8.txt
+S9=/DATA/s_3/a_modulo-3/s9.txt
+S10=/DATA/s_3/a_modulo-3/s10.txt
 
-F11=/DATA/s_2/a_modulo-3/usuario.txt
-S11=/DATA/s_2/a_modulo-3/usuario-seguro.txt
+F11=/DATA/s_3/a_modulo-3/usuario.txt
+S11=/DATA/s_3/a_modulo-3/usuario-seguro.txt
 
-F12=/DATA/s_2/a_modulo-3/orden.txt
-S12=/DATA/s_2/a_modulo-3/orden-seguro.txt
+F12=/DATA/s_3/a_modulo-3/orden.txt
+S12=/DATA/s_3/a_modulo-3/orden-seguro.txt
 
 F13=/DATA/reporte/tx.txt
 
 
 # En este archivo almaceno la informacion que le sigue a ##r o ##a o ##q
-F14=/DATA/s_2/a_modulo-3/cliente.txt
-S14=/DATA/s_2/a_modulo-3/cliente-seguro.txt
+F14=/DATA/s_3/a_modulo-3/cliente.txt
+S14=/DATA/s_3/a_modulo-3/cliente-seguro.txt
 
-F15=/DATA/s_2/a_modulo-3/formulario.txt
-S15=/DATA/s_2/a_modulo-3/formulario-seguro.txt
+F15=/DATA/s_3/a_modulo-3/formulario.txt
+S15=/DATA/s_3/a_modulo-3/formulario-seguro.txt
 
-F16=/DATA/s_2/a_modulo-3/numero.txt
-S16=/DATA/s_2/a_modulo-3/numero-seguro.txt
+F16=/DATA/s_3/a_modulo-3/numero.txt
+S16=/DATA/s_3/a_modulo-3/numero-seguro.txt
 
-F17=/DATA/s_2/a_modulo-3/accion.txt
-S17=/DATA/s_2/a_modulo-3/accion-seguro.txt
+F17=/DATA/s_3/a_modulo-3/accion.txt
+S17=/DATA/s_3/a_modulo-3/accion-seguro.txt
 
 # Generacion de usuario seguro
-F18=/DATA/s_2/a_modulo-3/usuario-s.txt
-
-echo "2"
+F18=/DATA/s_3/a_modulo-3/usuario-s.txt
 
 # Leer la primera linea del archivo
 echo $FILE2 > $F1 
 
-echo "3"
-
 # Leer la primera linea del archivo SEGURO
 echo $FILES2 > $S1 
-
-
-echo "4"
 
 #-----Cliente que en realidad es la info que acompana a ##r# o ##a# o ##q# -----------
 
 # Busqueda del campo con ## 
 sed -n 's/^.*\(\s##[^ ]*\).*/\1/p' $F1 > $F4
 
-
-echo "5"
-
 # Busqueda del campo con ## en el archivo SEGURO 
 sed -n 's/^.*\(\s##[^ ]*\).*/\1/p' $S1 > $S4
-
-
-echo "6"
 
 #-----------------------------------------------
 # Elimino el ##r# para obtener el cliente
@@ -94,36 +81,21 @@ sed 's/##r#//' $F4 > $F6
 sed 's/##a#//' $F6 > $F7
 sed 's/##q#//' $F7 > $F10
 
-
-echo "7"
-
 # Elimino el primer caracter en blanco
 sed 's/^ *//g' $F10 > $F14
-
-
-echo "8"
 
 #-----------------------------------------------
 # Elimino el ##r# para obtener el cliente SEGURO
 sed 's/##rs#//' $S4 > $S6
 sed 's/##as#//' $S6 > $S10
 
-
-echo "9"
-
 # Elimino el primer caracter en blanco SEGURO
 sed 's/^ *//g' $S10 > $S14
-
-
-echo "10"
 
 #-----------------------Orden ----------------------------------
 
 # Leo el contenido del cliente para eliminarlo y obtener la orden
 cliente=$(awk 'NR==1' $F14)
-
-
-echo "11"
 
 # Leo el contenido del cliente para eliminarlo y obtener la orden SEGURO
 clientes=$(awk 'NR==1' $S14)
@@ -246,8 +218,3 @@ then
 else
         echo "Uhh"
 fi
-
-
-
-
-

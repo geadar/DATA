@@ -44,6 +44,10 @@ sed '/'$USER'/d' $F15 > $F3
 # Eliminar lineas vacias
 sed '/^$/d' $F3 > $F4
 
+F61=/DATA/a_modulo-7/session_telegram.txt 
+
+# Leer nombres de las sesiones de telegram
+telegram2=$(head -2 $F61 | tail -1)
 
 # Numero sesion Telegram
 TS=/DATA/a_modulo-7/nro_screen_telegram_s2.txt
@@ -53,7 +57,7 @@ NUM=$(head -1 $TS | tail -1)
 
 if [ -s "$F4" ]
 then
-        screen -S $NUM.telegram-session -p 0 -X stuff "`printf "send_text $USER $F4\r"`";
+        screen -S $NUM.$telegram2 -p 0 -X stuff "`printf "send_text $USER $F4\r"`";
         sleep 2
         # Eliminacion de archivo procesado
         rm -f /DATA/SHARED/aprobaciones/$cliente

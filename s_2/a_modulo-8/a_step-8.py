@@ -23,16 +23,16 @@ s = open('/tmp/screenlog-telegram')
 dato = s.read()
 
 match = re.findall(hostname, dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-8/up-telegram'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-8/up-telegram'])
 
 match = re.findall("x86_64-linux-gnu", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-8/up-telegram'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-8/up-telegram'])
 
 match = re.findall("lib/x86", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-8/up-telegram'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-8/up-telegram'])
 
 match = re.findall("zero", dato)
-if match: subprocess.call(['/DATA/s_1/a_modulo-8/error-telegram'])
+if match: subprocess.call(['/DATA/s_2/a_modulo-8/error-telegram'])
 
 
 

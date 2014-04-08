@@ -12,7 +12,7 @@ USUARIO=/DATA/a_modulo-3/usuario.txt
 # Leer la primera linea del archivo
 USER=$(head -1 $USUARIO | tail -1)
 
-F1=/DATA/a_modulo-7/nro_screen_telegram.txt
+F1=/DATA/a_modulo-7/nro_screen_telegram_s1.txt
 
 
 DB_REP=/DATA/a_modulo-7/db_rep.txt

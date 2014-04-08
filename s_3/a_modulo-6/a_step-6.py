@@ -14,8 +14,8 @@ import time
 
 # Open a file
 path = "/DATA/SHARED/aprobaciones"
-open("/DATA/s_2/a_modulo-6/path.txt","w").close()
-f = open("/DATA/s_2/a_modulo-6/path.txt","a")
+open("/DATA/s_3/a_modulo-6/path.txt","w").close()
+f = open("/DATA/s_3/a_modulo-6/path.txt","a")
 dirs = os.listdir( path )
 
 # Imprimo todo el contenido de la carpeta new en el archivo spool1.txt
@@ -24,7 +24,7 @@ for file in dirs:
 f.close()
 
 
-subprocess.call(['/DATA/s_2/a_modulo-6/a_step2-6'])
+subprocess.call(['/DATA/s_3/a_modulo-6/a_step2-6'])
 
 
 

@@ -1,17 +1,19 @@
 #!/bin/bash
 
-F1=/DATA/a_modulo-7/nro_screen_telegram_s1.txt
+F61=/DATA/a_modulo-7/session_telegram.txt
+
+# Leer nombres de las sesiones de telegram
+telegram3=$(head -3 $F61 | tail -1)
+
+F1=/DATA/a_modulo-7/nro_screen_telegram_s3.txt
 
 # Leer Numero de sesion
 NUM=$(head -1 $F1 | tail -1)
 
-USUARIO=/DATA/s_2/a_modulo-3/usuario.txt
+USUARIO=/DATA/s_3/a_modulo-3/usuario.txt
 
 # Leer la primera linea del archivo
 USER=$(head -1 $USUARIO | tail -1)
 
 
-screen -S $NUM.t-session-s1 -p 0 -X stuff "`printf "msg $USER Error de procesaminto por favor vuelva a enviar la consulta\r"`";
-
-
-
+screen -S $NUM.$telegram3 -p 0 -X stuff "`printf "msg $USER Error de procesaminto por favor vuelva a enviar la consulta\r"`";

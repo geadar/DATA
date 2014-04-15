@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+chmod -R +x /DATA/*
+
+echo " Finalizado"

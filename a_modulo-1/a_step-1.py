@@ -38,7 +38,7 @@ subprocess.call(['/DATA/a_modulo-9/a_step-9'])
 subprocess.call(['/DATA/s_2/a_modulo-3/a_step-3'])
 subprocess.call(['/DATA/s_2/a_modulo-4/a_step-4'])
 
-subprocess.call(['/DATA/s_2/a_modulo-6/a_step-6'])
+#subprocess.call(['/DATA/s_2/a_modulo-6/a_step-6'])
 subprocess.call(['/DATA/s_2/a_modulo-8/a_step-8'])
 
 
@@ -47,7 +47,7 @@ subprocess.call(['/DATA/s_2/a_modulo-8/a_step-8'])
 subprocess.call(['/DATA/s_3/a_modulo-3/a_step-3'])
 subprocess.call(['/DATA/s_3/a_modulo-4/a_step-4'])
 
-subprocess.call(['/DATA/s_3/a_modulo-6/a_step-6'])
+#subprocess.call(['/DATA/s_3/a_modulo-6/a_step-6'])
 subprocess.call(['/DATA/s_3/a_modulo-8/a_step-8'])
 
 #---------------------------------------------------------

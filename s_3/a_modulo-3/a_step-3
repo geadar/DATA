@@ -5,13 +5,11 @@
 
 FILE=/DATA/a_modulo-2/mensaje.txt
 # Leer la primera linea del archivo
-FILE2=$(head -3 $FILE | tail -1) 
+FILE2=$(awk 'NR == 3' $FILE) 
 
 FILES=/DATA/a_modulo-2/mensaje-seguro.txt
 # Leer la primera linea del archivo
-FILES2=$(head -3 $FILES | tail -1)
-
-echo "1"
+FILES2=$(awk 'NR == 3' $FILES)
 
 F1=/DATA/s_3/a_modulo-3/f1.txt
 F2=/DATA/s_3/a_modulo-3/f2.txt
@@ -172,23 +170,6 @@ sed "s/[ ][ ]*/_/g" $F2 > $F11
 # Generacion de usuario seguro
 sed 's/^/!_/' $F11 > $F18
 
-# Eliminacion de la linea analizada
-sed '1d' $FILE > $F3 
-
-# Eliminacion de la linea analizada SEGURO
-sed '1d' $FILES > $S3 
-
-# Eliminacion de todas las lineas vacias
-sed '/^$/d' $F3 > $FILE
-
-# Eliminacion de todas las lineas vacias SEGURO
-sed '/^$/d' $S3 > $FILES
-
-# Limpiar archivo pasarela
-cat /dev/null > $F1
-
-# Limpiar archivo pasarela
-cat /dev/null > $S1
 
 usuario=$(awk 'NR==1' $F11)
 orden=$(awk 'NR==1' $F12)
